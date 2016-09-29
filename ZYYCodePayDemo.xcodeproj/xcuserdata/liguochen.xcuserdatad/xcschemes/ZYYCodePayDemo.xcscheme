@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107514A81D9D1E6C007AEC38"
+               BuildableName = "ZYYCodePayDemo.app"
+               BlueprintName = "ZYYCodePayDemo"
+               ReferencedContainer = "container:ZYYCodePayDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107514C11D9D1E6C007AEC38"
+               BuildableName = "ZYYCodePayDemoTests.xctest"
+               BlueprintName = "ZYYCodePayDemoTests"
+               ReferencedContainer = "container:ZYYCodePayDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107514CC1D9D1E6C007AEC38"
+               BuildableName = "ZYYCodePayDemoUITests.xctest"
+               BlueprintName = "ZYYCodePayDemoUITests"
+               ReferencedContainer = "container:ZYYCodePayDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107514A81D9D1E6C007AEC38"
+            BuildableName = "ZYYCodePayDemo.app"
+            BlueprintName = "ZYYCodePayDemo"
+            ReferencedContainer = "container:ZYYCodePayDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107514A81D9D1E6C007AEC38"
+            BuildableName = "ZYYCodePayDemo.app"
+            BlueprintName = "ZYYCodePayDemo"
+            ReferencedContainer = "container:ZYYCodePayDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107514A81D9D1E6C007AEC38"
+            BuildableName = "ZYYCodePayDemo.app"
+            BlueprintName = "ZYYCodePayDemo"
+            ReferencedContainer = "container:ZYYCodePayDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

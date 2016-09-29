@@ -15,6 +15,7 @@
 		107514BC1D9D1E6C007AEC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107514BA1D9D1E6C007AEC38 /* LaunchScreen.storyboard */; };
 		107514C71D9D1E6C007AEC38 /* ZYYCodePayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514C61D9D1E6C007AEC38 /* ZYYCodePayDemoTests.m */; };
 		107514D21D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514D11D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m */; };
+		107514E21D9D1EEF007AEC38 /* ZYYCodePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514E11D9D1EEF007AEC38 /* ZYYCodePayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		107514CD1D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYYCodePayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		107514D11D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYCodePayDemoUITests.m; sourceTree = "<group>"; };
 		107514D31D9D1E6C007AEC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107514DF1D9D1ECB007AEC38 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		107514E01D9D1EEE007AEC38 /* ZYYCodePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYCodePayViewController.h; sourceTree = "<group>"; };
+		107514E11D9D1EEF007AEC38 /* ZYYCodePayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYCodePayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,13 @@
 				107514B01D9D1E6C007AEC38 /* AppDelegate.m */,
 				107514B21D9D1E6C007AEC38 /* ViewController.h */,
 				107514B31D9D1E6C007AEC38 /* ViewController.m */,
+				107514E01D9D1EEE007AEC38 /* ZYYCodePayViewController.h */,
+				107514E11D9D1EEF007AEC38 /* ZYYCodePayViewController.m */,
 				107514B51D9D1E6C007AEC38 /* Main.storyboard */,
 				107514B81D9D1E6C007AEC38 /* Assets.xcassets */,
 				107514BA1D9D1E6C007AEC38 /* LaunchScreen.storyboard */,
 				107514BD1D9D1E6C007AEC38 /* Info.plist */,
+				107514DF1D9D1ECB007AEC38 /* Common.h */,
 				107514AC1D9D1E6C007AEC38 /* Supporting Files */,
 			);
 			path = ZYYCodePayDemo;
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				107514B41D9D1E6C007AEC38 /* ViewController.m in Sources */,
+				107514E21D9D1EEF007AEC38 /* ZYYCodePayViewController.m in Sources */,
 				107514B11D9D1E6C007AEC38 /* AppDelegate.m in Sources */,
 				107514AE1D9D1E6C007AEC38 /* main.m in Sources */,
 			);
