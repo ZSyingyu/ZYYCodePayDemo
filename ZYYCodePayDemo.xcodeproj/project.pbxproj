@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107514AE1D9D1E6C007AEC38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514AD1D9D1E6C007AEC38 /* main.m */; };
+		107514B11D9D1E6C007AEC38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514B01D9D1E6C007AEC38 /* AppDelegate.m */; };
+		107514B41D9D1E6C007AEC38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514B31D9D1E6C007AEC38 /* ViewController.m */; };
+		107514B71D9D1E6C007AEC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107514B51D9D1E6C007AEC38 /* Main.storyboard */; };
+		107514B91D9D1E6C007AEC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107514B81D9D1E6C007AEC38 /* Assets.xcassets */; };
+		107514BC1D9D1E6C007AEC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107514BA1D9D1E6C007AEC38 /* LaunchScreen.storyboard */; };
+		107514C71D9D1E6C007AEC38 /* ZYYCodePayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514C61D9D1E6C007AEC38 /* ZYYCodePayDemoTests.m */; };
+		107514D21D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514D11D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		107514C31D9D1E6C007AEC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107514A11D9D1E6C007AEC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107514A81D9D1E6C007AEC38;
+			remoteInfo = ZYYCodePayDemo;
+		};
+		107514CE1D9D1E6C007AEC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107514A11D9D1E6C007AEC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107514A81D9D1E6C007AEC38;
+			remoteInfo = ZYYCodePayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107514A91D9D1E6C007AEC38 /* ZYYCodePayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYYCodePayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		107514AD1D9D1E6C007AEC38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		107514AF1D9D1E6C007AEC38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		107514B01D9D1E6C007AEC38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		107514B21D9D1E6C007AEC38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		107514B31D9D1E6C007AEC38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		107514B61D9D1E6C007AEC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		107514B81D9D1E6C007AEC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		107514BB1D9D1E6C007AEC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		107514BD1D9D1E6C007AEC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107514C21D9D1E6C007AEC38 /* ZYYCodePayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYYCodePayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		107514C61D9D1E6C007AEC38 /* ZYYCodePayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYCodePayDemoTests.m; sourceTree = "<group>"; };
+		107514C81D9D1E6C007AEC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107514CD1D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYYCodePayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		107514D11D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYCodePayDemoUITests.m; sourceTree = "<group>"; };
+		107514D31D9D1E6C007AEC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107514A61D9D1E6C007AEC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107514BF1D9D1E6C007AEC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107514CA1D9D1E6C007AEC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107514A01D9D1E6C007AEC38 = {
+			isa = PBXGroup;
+			children = (
+				107514AB1D9D1E6C007AEC38 /* ZYYCodePayDemo */,
+				107514C51D9D1E6C007AEC38 /* ZYYCodePayDemoTests */,
+				107514D01D9D1E6C007AEC38 /* ZYYCodePayDemoUITests */,
+				107514AA1D9D1E6C007AEC38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107514AA1D9D1E6C007AEC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107514A91D9D1E6C007AEC38 /* ZYYCodePayDemo.app */,
+				107514C21D9D1E6C007AEC38 /* ZYYCodePayDemoTests.xctest */,
+				107514CD1D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107514AB1D9D1E6C007AEC38 /* ZYYCodePayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				107514AF1D9D1E6C007AEC38 /* AppDelegate.h */,
+				107514B01D9D1E6C007AEC38 /* AppDelegate.m */,
+				107514B21D9D1E6C007AEC38 /* ViewController.h */,
+				107514B31D9D1E6C007AEC38 /* ViewController.m */,
+				107514B51D9D1E6C007AEC38 /* Main.storyboard */,
+				107514B81D9D1E6C007AEC38 /* Assets.xcassets */,
+				107514BA1D9D1E6C007AEC38 /* LaunchScreen.storyboard */,
+				107514BD1D9D1E6C007AEC38 /* Info.plist */,
+				107514AC1D9D1E6C007AEC38 /* Supporting Files */,
+			);
+			path = ZYYCodePayDemo;
+			sourceTree = "<group>";
+		};
+		107514AC1D9D1E6C007AEC38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107514AD1D9D1E6C007AEC38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		107514C51D9D1E6C007AEC38 /* ZYYCodePayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				107514C61D9D1E6C007AEC38 /* ZYYCodePayDemoTests.m */,
+				107514C81D9D1E6C007AEC38 /* Info.plist */,
+			);
+			path = ZYYCodePayDemoTests;
+			sourceTree = "<group>";
+		};
+		107514D01D9D1E6C007AEC38 /* ZYYCodePayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				107514D11D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m */,
+				107514D31D9D1E6C007AEC38 /* Info.plist */,
+			);
+			path = ZYYCodePayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107514A81D9D1E6C007AEC38 /* ZYYCodePayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107514D61D9D1E6C007AEC38 /* Build configuration list for PBXNativeTarget "ZYYCodePayDemo" */;
+			buildPhases = (
+				107514A51D9D1E6C007AEC38 /* Sources */,
+				107514A61D9D1E6C007AEC38 /* Frameworks */,
+				107514A71D9D1E6C007AEC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYYCodePayDemo;
+			productName = ZYYCodePayDemo;
+			productReference = 107514A91D9D1E6C007AEC38 /* ZYYCodePayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		107514C11D9D1E6C007AEC38 /* ZYYCodePayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107514D91D9D1E6C007AEC38 /* Build configuration list for PBXNativeTarget "ZYYCodePayDemoTests" */;
+			buildPhases = (
+				107514BE1D9D1E6C007AEC38 /* Sources */,
+				107514BF1D9D1E6C007AEC38 /* Frameworks */,
+				107514C01D9D1E6C007AEC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107514C41D9D1E6C007AEC38 /* PBXTargetDependency */,
+			);
+			name = ZYYCodePayDemoTests;
+			productName = ZYYCodePayDemoTests;
+			productReference = 107514C21D9D1E6C007AEC38 /* ZYYCodePayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		107514CC1D9D1E6C007AEC38 /* ZYYCodePayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107514DC1D9D1E6C007AEC38 /* Build configuration list for PBXNativeTarget "ZYYCodePayDemoUITests" */;
+			buildPhases = (
+				107514C91D9D1E6C007AEC38 /* Sources */,
+				107514CA1D9D1E6C007AEC38 /* Frameworks */,
+				107514CB1D9D1E6C007AEC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107514CF1D9D1E6C007AEC38 /* PBXTargetDependency */,
+			);
+			name = ZYYCodePayDemoUITests;
+			productName = ZYYCodePayDemoUITests;
+			productReference = 107514CD1D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		107514A11D9D1E6C007AEC38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Slience;
+				TargetAttributes = {
+					107514A81D9D1E6C007AEC38 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4G3GS9D6JL;
+						ProvisioningStyle = Automatic;
+					};
+					107514C11D9D1E6C007AEC38 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4G3GS9D6JL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 107514A81D9D1E6C007AEC38;
+					};
+					107514CC1D9D1E6C007AEC38 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4G3GS9D6JL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 107514A81D9D1E6C007AEC38;
+					};
+				};
+			};
+			buildConfigurationList = 107514A41D9D1E6C007AEC38 /* Build configuration list for PBXProject "ZYYCodePayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 107514A01D9D1E6C007AEC38;
+			productRefGroup = 107514AA1D9D1E6C007AEC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107514A81D9D1E6C007AEC38 /* ZYYCodePayDemo */,
+				107514C11D9D1E6C007AEC38 /* ZYYCodePayDemoTests */,
+				107514CC1D9D1E6C007AEC38 /* ZYYCodePayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107514A71D9D1E6C007AEC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107514BC1D9D1E6C007AEC38 /* LaunchScreen.storyboard in Resources */,
+				107514B91D9D1E6C007AEC38 /* Assets.xcassets in Resources */,
+				107514B71D9D1E6C007AEC38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107514C01D9D1E6C007AEC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107514CB1D9D1E6C007AEC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107514A51D9D1E6C007AEC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107514B41D9D1E6C007AEC38 /* ViewController.m in Sources */,
+				107514B11D9D1E6C007AEC38 /* AppDelegate.m in Sources */,
+				107514AE1D9D1E6C007AEC38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107514BE1D9D1E6C007AEC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107514C71D9D1E6C007AEC38 /* ZYYCodePayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107514C91D9D1E6C007AEC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107514D21D9D1E6C007AEC38 /* ZYYCodePayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107514C41D9D1E6C007AEC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107514A81D9D1E6C007AEC38 /* ZYYCodePayDemo */;
+			targetProxy = 107514C31D9D1E6C007AEC38 /* PBXContainerItemProxy */;
+		};
+		107514CF1D9D1E6C007AEC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107514A81D9D1E6C007AEC38 /* ZYYCodePayDemo */;
+			targetProxy = 107514CE1D9D1E6C007AEC38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		107514B51D9D1E6C007AEC38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107514B61D9D1E6C007AEC38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		107514BA1D9D1E6C007AEC38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107514BB1D9D1E6C007AEC38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107514D41D9D1E6C007AEC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		107514D51D9D1E6C007AEC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		107514D71D9D1E6C007AEC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G3GS9D6JL;
+				INFOPLIST_FILE = ZYYCodePayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZYYCodePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		107514D81D9D1E6C007AEC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G3GS9D6JL;
+				INFOPLIST_FILE = ZYYCodePayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZYYCodePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		107514DA1D9D1E6C007AEC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4G3GS9D6JL;
+				INFOPLIST_FILE = ZYYCodePayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZYYCodePayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYYCodePayDemo.app/ZYYCodePayDemo";
+			};
+			name = Debug;
+		};
+		107514DB1D9D1E6C007AEC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4G3GS9D6JL;
+				INFOPLIST_FILE = ZYYCodePayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZYYCodePayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYYCodePayDemo.app/ZYYCodePayDemo";
+			};
+			name = Release;
+		};
+		107514DD1D9D1E6C007AEC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4G3GS9D6JL;
+				INFOPLIST_FILE = ZYYCodePayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZYYCodePayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYYCodePayDemo;
+			};
+			name = Debug;
+		};
+		107514DE1D9D1E6C007AEC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4G3GS9D6JL;
+				INFOPLIST_FILE = ZYYCodePayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZYYCodePayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYYCodePayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107514A41D9D1E6C007AEC38 /* Build configuration list for PBXProject "ZYYCodePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107514D41D9D1E6C007AEC38 /* Debug */,
+				107514D51D9D1E6C007AEC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107514D61D9D1E6C007AEC38 /* Build configuration list for PBXNativeTarget "ZYYCodePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107514D71D9D1E6C007AEC38 /* Debug */,
+				107514D81D9D1E6C007AEC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107514D91D9D1E6C007AEC38 /* Build configuration list for PBXNativeTarget "ZYYCodePayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107514DA1D9D1E6C007AEC38 /* Debug */,
+				107514DB1D9D1E6C007AEC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107514DC1D9D1E6C007AEC38 /* Build configuration list for PBXNativeTarget "ZYYCodePayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107514DD1D9D1E6C007AEC38 /* Debug */,
+				107514DE1D9D1E6C007AEC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 107514A11D9D1E6C007AEC38 /* Project object */;
+}
